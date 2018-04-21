@@ -4,6 +4,9 @@
 
 **Bug fixes:**
 - Fix css
+- Update LICENSE
+- Readme
+- Change log
 
 ---
 
@@ -12,6 +15,4 @@
 Initial release.
 
 **Added:**
-- Readme
-- Change log
 - License
