@@ -1,5 +1,13 @@
 ﻿# Change log
 
+## v1.0.2 — November. 13, 2018
+
+**Bug fixes:**
+- Fix css
+- Fix html
+
+---
+
 ## v1.0.1 — April. 21, 2018
 
 **Bug fixes:**
