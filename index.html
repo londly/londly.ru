@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0">
-	<title>LoNdly's Web Design Page</title>
+  	<meta name="Description" content="Do you need a web site? If you need a web site, then you get into the right place.">
+  	<meta name="Keywords" content="web design development ui/ux design front-end back-end lading page">
+	<title>LoNdly - Front-End Developer</title>
 	<link rel="stylesheet" type="text/css" href="resource/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
@@ -11,14 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="resource/js/parallax.js"></script>
-	<script src="resource/js/jquery.waypoints.min.js" type="text/javascript"></script>
-	<script src="resource/js/waypoints.js" type="text/javascript"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	  <script src="resource/js/parallax.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
-<style type="text/css">
-</style>
 <body>
 <header class="">
   <div class="border-bot">
@@ -27,13 +24,13 @@
       <div class="main2">
         <h1>Londly</h1><!--<-<-<- Site LOGO -->
            <nav class="">
-              <ul style="none" class="menu2">
+              <ul class="menu2">
 		
-                <li><a name="home" href="../">Home</a></li>
-                <li><a name="portfolio" href="/portfolio/">Portfolio</a></li>
-                <li><a name="services" href="/services/">Services</a></li>
-                <li><a name="about" href="/about/">About</a></li>
-                <li><a name="contact" href="/contact/">Contact</a></li>
+                <li><a href="../">Home</a></li>
+                <li><a href="/portfolio/">Portfolio</a></li>
+                <li><a href="/services/">Services</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
 
                </ul>
              </nav>
@@ -45,7 +42,7 @@
 <!-- End Parallax image 1-->
 <!-- Centered TEXET AND SCROLL DOWN-->
 				  	<div class="clear"></div>
-                  		<h2 class="animated bounceInDown"> UX UI Designer </h2>
+                  		<h2 class="animated bounceInDown"> Front-End Developer </h2>
                   			<h3 class="animated bounce"> Front-End, Back-End, Landing Pape Developer</h3>
                    				 <section id="sec1">
                         				<a href="#sec2"><span style="display: table;"></span></a>
@@ -60,10 +57,7 @@
 <!-- SECTION 2 -->
 <div class="parallax-window2">
                     <section id="sec2">
-                        <p>My name is TIGIRLAS GABRIEL. I'm a UI / UX and web designer.
-                            I develop adaptive sites with a user-friendly interface.
-                            I work remotely, I like to travel.In Web Development i like to build Landing Pages.
-                            I'm a developing developer.In the future I hope to learn programming languages...<br/>
+                        <p>My name is TIGIRLAS GABRIEL. I am Self-motivated IT junior with good knowledge in JavaScript, HTML, CSS, and mobile responsive website development, with ability to learn fast and to write efficient code.<br/>
                         </p>
                     </section>
 </div>
@@ -93,20 +87,20 @@
     <div id="secport" class="portfolio-window3">
 
             <div class="container_portfolio">
-   		         <div class="work1"><span>
+   		         <div style="margin-top: 50px;" class="work1 port_container">
    			           <div class="worktext">
    				            ZooMix COM<br/>
-   				               <h2>
+   				               <div class="h2">
    					                  <ul class="circle">
                                    <li>HTML, CSS, Javascript, PHP, MySql</li>
                                </ul>
-                               The main goal is to provide you with the best range of pet products,low prices and high level of service.</br></br></br>
-                          </h2>
-                                    <a href="../portfolio" target="_blank" class="button">Go to Portfolio</a></br>
+                               The main goal is to provide you with the best range of pet products,low prices and high level of service.<br /><br /><br />
+                          </div>
+                                    <a href="../portfolio" class="button">Go to Portfolio</a><br />
    			            </div>
    			            <div class="workimage">
-   				             <img src="../images/zoowork.png">
-   			            </div></span>
+   				             <img alt="ZooMix" src="../images/zoowork.png">
+   			            </div>
    		          </div>
             </div>
     </div>
@@ -120,20 +114,5 @@
       </ul>     
   </div>
 </div>
-<script type="text/javascript">
-  $(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
-</script>
 </body>
 </html>
